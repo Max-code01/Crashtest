@@ -6,7 +6,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    # simulate small processing
     time.sleep(0.05)
     return "ok\n"
 
